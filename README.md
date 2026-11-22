@@ -2,9 +2,11 @@
 
 A Chrome extension that shows the current time (HH:MM) in the toolbar.
 
+![Clock in the Chrome toolbar](store/screenshot-1280x800.png)
+
 - 24-hour time from your system clock, refreshed every 30 seconds
 - Readable on light and dark Chrome themes
-- No data collected, no access to websites; only uses the `alarms` permission
+- No data collected, no access to websites ([privacy policy](PRIVACY.md))
 
 ## Install (development)
 
