@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Clock</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; font: 18px/1.5 system-ui, sans-serif; text-align: center; }
+    img { width: 96px; image-rendering: pixelated; }
+    h1 { margin: 16px 0 8px; font-size: 28px; }
+    p { margin: 0; opacity: 0.8; }
+    #done { display: none; }
+    .pinned #todo { display: none; }
+    .pinned #done { display: block; }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="icons/icon48.png" alt="">
+    <div id="todo">
+      <h1>Pin Clock to see the time</h1>
+      <p>Click the puzzle-piece icon 🧩 in the toolbar, then the pin 📌 next to <b>Clock</b>.</p>
+    </div>
+    <div id="done">
+      <h1>You're all set</h1>
+      <p>The time is now in your toolbar. You can close this tab.</p>
+    </div>
+  </main>
+  <script src="welcome.js"></script>
+</body>
+</html>

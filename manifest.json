@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Clock",
+  "version": "1.0.0",
+  "description": "Shows the current time (HH:MM) right in your Chrome toolbar.",
+  "permissions": ["alarms"],
+  "background": { "service_worker": "service-worker.js" },
+  "action": {
+    "default_title": "Clock",
+    "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png" }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
